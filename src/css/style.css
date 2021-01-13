@@ -27,7 +27,8 @@
 
 .btn {
   border-radius: 5px;
-  background-color: #c70101; }
+  background-color: #c70101;
+  border: none; }
 
 .container {
   margin: 0 auto;
@@ -177,14 +178,17 @@
   .consult form {
     width: 300px;
     height: 255px;
-    margin-top: 21px; }
+    margin-top: 21px;
+    font-family: Museo; }
     .consult form input {
       margin-top: 15px;
       padding-left: 20px;
       width: 300px;
       height: 50px;
       border-radius: 5px;
-      background-color: #ffffff; }
+      background-color: #ffffff;
+      font-family: Museo;
+      border: none; }
     .consult form .btn {
       margin-top: 20px;
       width: 300px;
@@ -194,5 +198,27 @@
       font-weight: 500;
       text-align: center;
       text-transform: uppercase; }
+
+.carousel {
+  padding: 81px 0; }
+  .carousel-inner {
+    width: 750px;
+    margin: 0 auto;
+    position: relative; }
+  .carousel .slick-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -66px;
+    background-color: #fff img;
+      background-color-width: 35px;
+      background-color-height: 50px;
+      background-color-border: none; }
+  .carousel .slick-next {
+    osition: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -66px;
+    background-color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
