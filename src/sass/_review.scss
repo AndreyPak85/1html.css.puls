@@ -1,0 +1,39 @@
+.review {
+    height: 950px;
+    &-wrapper {
+        display: flex;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        width: 880px;
+    
+    }
+    &-round-img {
+        width: 169px;
+        height: 169px;
+    }
+    &-item {
+        width: 660;
+        height: 190px;
+        padding-left: 62px;
+        &-name {
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: left;
+        }
+        &-distance {
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: left;
+            margin-top: 10px;
+        }
+        &-descr {
+            margin-top: 19px;
+            color: #0d0d0d;
+            font-size: 15px;
+            font-weight: 300;
+            text-align: left;
+        }
+    }
+}

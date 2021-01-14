@@ -9,4 +9,7 @@ $(document).ready(function () {
         prevArrow: '<button type="button" class="slick-prev"><img src="./icons/left.png" alt=""></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="./icons/right.png" alt=""></button>'
     });
+
+
+
 });
