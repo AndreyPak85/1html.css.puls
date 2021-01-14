@@ -20,6 +20,13 @@
     max-width: 950px;  
 }
 
+.title {
+    color: #0d0d0d;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;}
+
 .main {
     background: url('../img/main-bg.jpg') center (center / cover ) no-repeat;
     height: 650px;
@@ -223,3 +230,4 @@
 }
 
 @import "carousel";
+@import "catalog";
